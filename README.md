@@ -15,6 +15,9 @@ CIFAR 10 (provided by the professor)
 
 Results
 -----
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+
+| Method        | Pre-processing Method | Time for pre-processing 50,000 datapoints | Pre-processing on test data | Training Time | Accuracy (testing) | Cross-Validation Error Rate |
+|---------------|-----------------------|-------------------------------------------|-----------------------------|---------------|----------|-----------------------------|
+| QDA           | PCA                   | 13s                                       | Required                    | 13s           |  43%        | 55.32%                      |
+| Random Forest | PCA                   | ~5 Minuttes                               | Required                    | 15.5          |     47%     | 57.80%                      |
+| CNN           | Not Required          |                                           | Not Required                | 7 Hours       |  84%        | 17%                         |
