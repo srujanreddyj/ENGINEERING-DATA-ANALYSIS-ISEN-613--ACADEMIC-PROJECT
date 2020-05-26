@@ -5,6 +5,7 @@ Project Goal
 ----
 "Image classification" using various machine learning concepts that are taught in the classroom. 
   * Apply various methods learned in the classroom and come with up detailed explanation for choosen specific three methods.
+  * Learn and apply various pre-processing techniques (allowed to go beyond the classroom teaching)
   * Provide an Executive summary and comprehensive conclusion.
 
 
