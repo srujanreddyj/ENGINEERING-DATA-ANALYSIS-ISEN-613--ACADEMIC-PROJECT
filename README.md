@@ -21,3 +21,8 @@ Results
 | QDA           | PCA                   | 13s                                       | Required                    | 13s           |  43%        | 55.32%                      |
 | Random Forest | PCA                   | ~5 Minuttes                               | Required                    | 15.5          |     47%     | 57.80%                      |
 | CNN           | Not Required          |                                           | Not Required                | 7 Hours       |  84%        | 17%                         |
+
+Conclusion
+-----
+Different classification algorithms (Logistic Regression, QDA, SVM, Random Forest with Boosting) were tested and we got best prediction performance using Random Forest among those classification methodologies.
+But the best prediction performace was achieved with convolution neural networks with a cross-validation error of 17% and a testing accuracy of 84%.
