@@ -4,10 +4,9 @@
 Project Goal
 ----
 "Image classification" using various machine learning concepts that are taught in the classroom. 
-  * We applied random forest, PCA, logistic regression, KNN, ensemble methods
-  * We also implemented Deep learning concepts in R on cifar10 dataset to train a CNN model using keras and tensorflow.
-  * Achieved an accuracy of 85%.
-  * Our deep learning model consisted of 6 layers model.
+  * Apply various methods learned in the classroom and come with up detailed explanation for choosen specific three methods.
+  * Provide an Executive summary and comprehensive conclusion.
+
 
 Data Source
 ----
@@ -24,5 +23,6 @@ Results
 
 Conclusion
 -----
-Different classification algorithms (Logistic Regression, QDA, SVM, Random Forest with Boosting) were tested and we got best prediction performance using Random Forest among those classification methodologies.
-But the best prediction performace was achieved with convolution neural networks with a cross-validation error of 17% and a testing accuracy of 84%.
+
+  * Different classification algorithms (Logistic Regression, QDA, SVM, Random Forest with Boosting) were tested and we got best prediction performance using Random Forest among those classification methodologies.
+  * But the best prediction performace was achieved with Deep learning methods [CNN model using keras and tensorflow] with a cross-validation error of 17% and a testing accuracy of 84%.
